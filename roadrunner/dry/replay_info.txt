@@ -1,0 +1,10 @@
+AEB Lab - RoadRunner replay
+Case: dry
+MATLAB: 2024a
+Duration: 15.000 s
+Vehicle length in physics: 4.50 m
+CSV position reference: vehicle geometric centre. Yaw: radians.
+Check imported actor origin/dimensions; visual contact may differ from the MATLAB bumper-gap metric.
+This is prerecorded playback, not live controller execution.
+Import the road, then import both CSVs in Scenario Editing mode.
+See ../../ROADRUNNER_README.md.

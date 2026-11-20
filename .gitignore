@@ -1,0 +1,8 @@
+*.asv
+*.m~
+*.autosave
+slprj/
+*.slxc
+*.mex*
+codegen/
+aws_nn_data.mat

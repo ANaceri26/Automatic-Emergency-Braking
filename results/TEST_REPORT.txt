@@ -1,0 +1,15 @@
+AEB LAB VALIDATION
+Prepared: 2026-10-05
+MATLAB: 24.1.0.2537033 (R2024a)
+
+PASS: 8 preset scenarios, finite state, no reversing, friction bounds, contact termination.
+PASS: AEB on/off comparison, safe following, sensor fallback, seed reproducibility.
+PASS: analytic stopping distance and time-step sensitivity.
+PASS: interactive lab construction and all 8 case-selector callbacks.
+PASS: comparison plots, 25-case sweep, RoadRunner CSV geometry/timing and XML parse.
+PASS: MATLAB/Simulink state and controller parity for all 8 cases (tolerance 1e-8).
+
+NOT VERIFIED: RoadRunner application import/playback and 3D performance.
+RoadRunner is an optional prerecorded replay. The core project requires only MATLAB.
+Compute timings are observations from this execution, not a T14 hardware guarantee.
+This is a teaching model; no real-vehicle validation or impact dynamics.
